@@ -1,6 +1,6 @@
 # Site settings
 title: "小芒果"
-url: "https://liiuzhanchen.github.io"
+url: "//liiuzhanchen.github.io"
 highlighter: rouge
 gems: [jekyll-paginate]
 paginate: 5
