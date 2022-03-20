@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+#### Create new post
 
-You can use the [editor on GitHub](https://github.com/liiuzhanchen/liiuzhanchen.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+    rake post title='A Title'
+    or
+    rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]] [category="category"]
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Create new page
 
-### Markdown
+    rake page name='about.html'
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Define your color
 
-```markdown
-Syntax highlighted code block
+Edit the file:  `assets/_sass/_custom.scss`
 
-# Header 1
-## Header 2
-### Header 3
+#### Use qiniu cdn
 
-- Bulleted
-- List
+    rake qrsync
 
-1. Numbered
-2. List
+Then, follow tips to do
 
-**Bold** and _Italic_ and `Code` text
+#### License
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/liiuzhanchen/liiuzhanchen.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- The Font Awesome font is licensed under the [SIL OFL 1.1](http://scripts.sil.org/OFL)
+- Font Awesome CSS, LESS, and SASS files are licensed under the [MIT License](http://opensource.org/licenses/mit-license.html)
+- Bootstrap is licensed under the [MIT License](http://opensource.org/licenses/mit-license.html)
+- Jekyll is licensed under the [MIT License](http://opensource.org/licenses/mit-license.html)
+- Pygments is licensed under the [BSD License](http://opensource.org/licenses/BSD-2-Clause)

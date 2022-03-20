@@ -1,1 +1,36 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: "幸福在路上"
+url: "https://liiuzhanchen.github.io/xiaomangguo.github.io/"
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
+author:
+    name: liiuzhanchen
+    github: liiuzhanchen
+    email: 
+    gitcafe:
+    twitter: 
+    facebook:
+    googleplus:
+    weibo:
+atom_path: /atom.xml
+rss_path: /rss.xml
+
+# Build settings
+markdown: kramdown
+redcarpet:
+    extensions: ["fenced_code_blocks", "tables", "highlight", "strikethrough"]
+permalink: /:categories/:year-:month/:title.html
+
+assets_path: /assets
+sass:
+    sass_dir: assets/_sass
+    style: :compressed
+
+# tinysou.com
+search:
+    tinysou:
+        engineKey: 
+    
+# Google Analytics
+google_analytics: UA-146915268-1
