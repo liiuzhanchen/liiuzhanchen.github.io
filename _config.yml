@@ -1,6 +1,6 @@
 # Site settings
-title: "幸福在路上"
-url: "https://liiuzhanchen.github.io/xiaomangguo.github.io/"
+title: "小芒果"
+url: "https://liiuzhanchen.github.io"
 highlighter: rouge
 gems: [jekyll-paginate]
 paginate: 5
