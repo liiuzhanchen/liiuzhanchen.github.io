@@ -61,6 +61,7 @@ def ComputerFilesTotalLineNumsInDir(dirName, outDir1):
     TotalCount = 0
     dirName = os.path.normpath(dirName)
     fileObj1 = open(outDir1, 'w')
+    TotalFilecount = 0
     for name in allFiles(dirName, patterns = patterns,
                          exceptFile = exceptFile):
         count = computerLineNum(name)
@@ -68,7 +69,11 @@ def ComputerFilesTotalLineNumsInDir(dirName, outDir1):
         print(str1)
         fileObj1.write(str1)
         TotalCount += count
+        TotalFilecount+=1
     str1 = 'the total line count of the dir %s is %d:'%(dirName, TotalCount)
+    print(str1)
+    fileObj1.write(str1)
+    str1 = 'the total file count of the dir %s is %d:' % (dirName, TotalFilecount)
     print(str1)
     fileObj1.write(str1)
     fileObj1.close()
