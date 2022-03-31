@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MAC 浏览器打开APP"
-category: web
+category: MAC-QT
 tags: [url,scheme,QT]
 ---
 # MAC 浏览器打开APP
